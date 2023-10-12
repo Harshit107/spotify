@@ -1,0 +1,15 @@
+:root {
+    
+    --first-bg : black;
+    --second-bg : #E99D72;
+    --second-bg-1 : #f3b48f;
+    --second-bg-5 : #d68f66;
+
+}
+
+.screen-container {
+    width: calc(100% - 100px);
+    border-radius: 30px;
+    background-color: var(--first-bg);
+    height: 100%;
+}

@@ -1,0 +1,25 @@
+a {
+    text-decoration: none;
+
+}
+.btn-body {
+    height : 60px;
+    width: 60px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px auto;
+}
+
+.btn-body.active {
+    background-color: var(--second-bg-1);
+    color: white;
+}
+
+svg {
+    font-size: 24px;
+    width: 20px;
+    height: 20px;
+}
